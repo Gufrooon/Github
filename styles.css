@@ -52,7 +52,7 @@ section {
 
 #timer {
     font-size: 2em;
-    color: #4CAF50;
+    color: #ffffff;
 }
 
 footer {
@@ -60,7 +60,8 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
+    position: flex;
     width: 100%;
     bottom: 0;
+
 }

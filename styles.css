@@ -13,12 +13,46 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
 main {
     padding: 1em;
 }
 
 section {
     margin-bottom: 2em;
+}
+
+#timer-section {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#timer {
+    font-size: 2em;
+    color: #4CAF50;
 }
 
 footer {
@@ -29,9 +63,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-#timer {
-    font-size: 2em;
-    color: #4CAF50;
 }
